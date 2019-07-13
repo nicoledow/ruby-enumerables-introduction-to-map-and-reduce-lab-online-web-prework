@@ -13,3 +13,9 @@ def map_to_double(array)
     ele * 2
   end
 end
+
+def map_to_square(array)
+  array.map do |ele|
+    ele * ele
+  end
+end
