@@ -26,12 +26,14 @@ def reduce_to_total(array, start_value = 0)
 end
 
 def reduce_to_all_true(source_array)
+  true_or_false = true
+  
   source_array.each do |value|
     if !value
-      return false
-    else
-      return true
+      true_or_false = false
+    end
   end
+  true_or_false
 end
 
 
