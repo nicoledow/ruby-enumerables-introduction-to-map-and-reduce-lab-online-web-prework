@@ -37,7 +37,14 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
+  true_or_false = false
   
+  source_array.each do |value|
+    if value
+      true_or_false = true
+    end
+  end
+  true_or_false
 end
 
 
