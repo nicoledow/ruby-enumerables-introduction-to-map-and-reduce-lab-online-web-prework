@@ -3,3 +3,7 @@ def map_to_negativize(array)
    ele * (-1)
   end
 end
+
+def map_to_no_change
+  
+end
