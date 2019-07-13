@@ -24,9 +24,9 @@ def reduce_to_total(array, start_value=0)
   if start_value == 0
     sum = array.reduce(:+)
     return sum
-  else
-    sum = array.reduce(start_value+)
-    return sum
+  #else
+   # sum = array.reduce(start_value+)
+    #return sum
   end
 end
 
