@@ -21,8 +21,13 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, start_value=0)
-  sum = array.reduce(:+)
-  sum
+  if start_value == 0
+    sum = array.reduce(:+)
+    return sum
+  else
+    sum = 
+    return sum
+  end
 end
 
 
