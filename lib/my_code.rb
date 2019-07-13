@@ -19,3 +19,7 @@ def map_to_square(array)
     ele * ele
   end
 end
+
+def reduce_to_total(array)
+  
+end
