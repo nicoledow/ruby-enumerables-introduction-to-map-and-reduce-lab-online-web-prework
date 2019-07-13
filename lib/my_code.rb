@@ -25,7 +25,7 @@ def reduce_to_total(array, start_value = 0)
   sum
 end
 
-def reduce_to_all(source_array)
+def reduce_to_all_true(source_array)
   
 end
 
